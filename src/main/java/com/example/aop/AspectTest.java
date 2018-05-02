@@ -14,6 +14,6 @@ public class AspectTest {
 	
 	@Before("webLog()")  
     public void deBefore(JoinPoint joinPoint) throws Throwable {
-		System.out.println("开始执行service");
+		System.out.println("开始执行service之前");
 	}
 }

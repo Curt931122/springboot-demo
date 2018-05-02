@@ -12,7 +12,7 @@ public class DemoController {
 	
     @RequestMapping("/")
     public String index() {
-    	myservice.method();
+    	myservice.method("我是参数");
         return "Hello Spring Boot!";
     }
 }
