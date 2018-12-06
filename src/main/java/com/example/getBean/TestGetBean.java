@@ -8,7 +8,7 @@ import com.example.service.MyService;
 
 public class TestGetBean {
 	//用于debug spring 对象注入
-	@Test
+	//@Test
 	public void testUser(){
 		ApplicationContext context=
 				new ClassPathXmlApplicationContext("bean1.xml");
